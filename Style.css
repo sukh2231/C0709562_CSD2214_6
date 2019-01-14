@@ -1,0 +1,36 @@
+﻿body
+{
+    text-align:center;
+    background-color:coral;
+}
+#clock{
+    background-color:chocolate;
+    color:white;
+    width:100%;
+    text-align:center;
+    font-size:2em;
+}
+
+#clock>div{
+    display: inline-block;
+    border-bottom-left-radius:5px;
+    background-color:forestgreen;
+
+}
+#clock > span{
+    padding:10px;
+    border-radius:5px;
+    background-color:darkgrey;
+    display:inline-block;
+}
+
+
+input{
+    font-size:1.25em;
+    margin:25px;
+    padding:10px;
+}
+small {
+    padding-top: 5px;
+
+}
